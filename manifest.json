@@ -1,0 +1,27 @@
+{
+	"manifest_version": 3,
+	"name": "Organization Messages",
+	"version": "1.0",
+	"description": "Displays organization-wide messages from an admin to users.",
+	"permissions": ["storage", "alarms", "notifications"],
+	"background": {
+	  "service_worker": "background.js"
+	},
+	"action": {
+	  "default_popup": "popup/popup.html",
+	  "default_icon": {
+		"16": "assets/icons/icon16.svg",
+		"48": "assets/icons/icon48.svg",
+		"128": "assets/icons/icon128.svg"
+	  }
+	},
+	"icons": {
+	  "16": "assets/icons/icon16.svg",
+	  "48": "assets/icons/icon48.svg",
+	  "128": "assets/icons/icon128.svg"
+	},
+	"options_page": "options/options.html",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+  }

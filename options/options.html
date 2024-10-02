@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Options</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-100 p-4">
+  <h1 class="text-2xl font-bold mb-4">Options</h1>
+  <form class="space-y-4">
+    <div>
+      <label class="flex items-center">
+        <input type="checkbox" id="notificationSound" class="mr-2">
+        Enable notification sound for high-priority messages
+      </label>
+    </div>
+    <div>
+      <label class="block mb-2">Message Priority:</label>
+      <select id="messagePriority" class="block w-full p-2 border border-gray-300 rounded">
+        <option value="all">All</option>
+        <option value="high">High</option>
+        <option value="normal">Normal</option>
+      </select>
+    </div>
+    <button type="button" id="save" class="bg-blue-500 text-white px-4 py-2 rounded">Save</button>
+  </form>
+  <div id="status" class="mt-4 text-green-500"></div>
+  <script src="options.js"></script>
+</body>
+</html>
