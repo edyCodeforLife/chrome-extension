@@ -14,6 +14,8 @@ This project is a Chrome extension built with TypeScript and React.
    git clone <repository-url>
    cd chrome-extension
 
+   api using mockable.io : https://demo2498142.mockable.io/api/notif
+
 2. Install dependencies:
    ```bash
    yarn install
