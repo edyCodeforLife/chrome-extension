@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de8736dd-eb7f-4138-b3d9-c5758855d852" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/popup/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/popup/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/popup/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/popup/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/popup/popup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup/src/__tests__/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/popup/src/index.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>

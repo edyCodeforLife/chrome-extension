@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { createRoot } from 'react-dom/client';
 import MessageList from './MessageList';
 import { fetchMessages, markMessageAsRead } from './api';
 import { Message } from './types';
@@ -36,3 +37,7 @@ const App: React.FC = () => {
 };
 
 export default App;
+
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement!);
+root.render(<App />);
